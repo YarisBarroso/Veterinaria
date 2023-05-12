@@ -15,7 +15,6 @@ nav{
    margin-bottom: 10px;
 }
 section{
-   border: 1px solid Blue;
    height: 360px;
    width: 1100px;
    margin: auto;
@@ -30,10 +29,9 @@ aside{
    border: 1px solid black;
    height: 300px;
    width: 400px;
-   align-self: right;
-}
-section aside{
-  margin-bottom: 50px;
+   float:initial;
+   margin-left: 700px;
+   margin-top: 10px;
 }
 
 article{
@@ -43,7 +41,7 @@ article{
    float: left;
 }
 section article{
-   margin: 15px 0px 15px 0px;
+   margin: 10px 0px 10px 0px;
 }
 Ul li{
    margin-right:150px;
